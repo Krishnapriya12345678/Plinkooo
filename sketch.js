@@ -67,8 +67,8 @@ function draw() {
   background('black');  
   drawSprites();
 
-  if(frameCount%20==0){
-    particles.push(new Particles(random(100,500),10,10))
+  if(frameCount%60==0){
+    particles.push(new Particles(random(width/2-10,width/2+10),10,10))
     }
 
 ground1.display()
